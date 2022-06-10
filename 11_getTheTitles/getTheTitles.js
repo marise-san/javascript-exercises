@@ -1,8 +1,4 @@
-const getTheTitles = function () {
-    const books = [
-        { title: 'Book', author: 'Name' },
-        { title: 'Book2', author: 'Name2' }
-    ];
+const getTheTitles = function (books) {
 
     const onlyTitle = books.map(
         function (item, index) {
@@ -10,9 +6,6 @@ const getTheTitles = function () {
         });
     return onlyTitle;
 };
-
-
-console.log(getTheTitles());
 
 // Do not edit below this line
 module.exports = getTheTitles;
